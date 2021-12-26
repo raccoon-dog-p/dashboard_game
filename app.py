@@ -4,7 +4,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import altair as alt
-from vega_datasets import data
 import numpy as np
 from datetime import datetime
 from dateutil.parser import parse
