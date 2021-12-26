@@ -7,7 +7,8 @@ import altair as alt
 import numpy as np
 from datetime import datetime
 from dateutil.parser import parse
-
+import mysql.connector
+from mysql.connector.errors import Error
 from run_eda import sql_insert, sql_selcet
 
 def main():
